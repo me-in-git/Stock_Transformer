@@ -1,0 +1,33 @@
+{
+  "ticker": "AAPL",
+  "test_period": [
+    "2025-04-09",
+    "2026-10-05"
+  ],
+  "test_days": 374,
+  "model": {
+    "rmse": 0.016406208833470767,
+    "mae": 0.011684897211419206,
+    "directional_accuracy": 0.4679144385026738
+  },
+  "baseline_zero_return": {
+    "rmse": 0.01607004797536363,
+    "mae": 0.011387042665915444
+  },
+  "baseline_train_mean": {
+    "rmse": 0.016011328331075023,
+    "mae": 0.01133339116998424,
+    "directional_accuracy": 0.5374331550802139
+  },
+  "majority_class_rate_up": 0.5374331550802139,
+  "backtest": {
+    "strategy_total_return": 0.1001708519397253,
+    "buy_hold_total_return": 0.6881170781601962,
+    "strategy_sharpe": 0.4210671587733675,
+    "buy_hold_sharpe": 1.5162730991157216,
+    "strategy_max_drawdown": -0.19801816705886566,
+    "buy_hold_max_drawdown": -0.13798523953754405,
+    "time_in_market": 0.5828877005347594,
+    "num_trades": 92
+  }
+}

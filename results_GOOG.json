@@ -1,0 +1,33 @@
+{
+  "ticker": "GOOG",
+  "test_period": [
+    "2025-04-09",
+    "2026-10-05"
+  ],
+  "test_days": 374,
+  "model": {
+    "rmse": 0.019330090197820702,
+    "mae": 0.014143828321553814,
+    "directional_accuracy": 0.4959785522788204
+  },
+  "baseline_zero_return": {
+    "rmse": 0.01914290972117404,
+    "mae": 0.013907967169166573
+  },
+  "baseline_train_mean": {
+    "rmse": 0.019077079091575293,
+    "mae": 0.013893574769494134,
+    "directional_accuracy": 0.5201072386058981
+  },
+  "majority_class_rate_up": 0.5201072386058981,
+  "backtest": {
+    "strategy_total_return": 0.49355587481499996,
+    "buy_hold_total_return": 1.1495964672945655,
+    "strategy_sharpe": 1.1527029616082343,
+    "buy_hold_sharpe": 1.8489513456706128,
+    "strategy_max_drawdown": -0.21497073498628871,
+    "buy_hold_max_drawdown": -0.2075024389136786,
+    "time_in_market": 0.660427807486631,
+    "num_trades": 65
+  }
+}

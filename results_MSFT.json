@@ -1,0 +1,33 @@
+{
+  "ticker": "MSFT",
+  "test_period": [
+    "2025-04-09",
+    "2026-10-05"
+  ],
+  "test_days": 374,
+  "model": {
+    "rmse": 0.018323446168749636,
+    "mae": 0.012345785770821984,
+    "directional_accuracy": 0.5213903743315508
+  },
+  "baseline_zero_return": {
+    "rmse": 0.018298797644454308,
+    "mae": 0.012252750048496177
+  },
+  "baseline_train_mean": {
+    "rmse": 0.018280453774600653,
+    "mae": 0.01223690335667609,
+    "directional_accuracy": 0.5267379679144385
+  },
+  "majority_class_rate_up": 0.5267379679144385,
+  "backtest": {
+    "strategy_total_return": 0.41520281683944615,
+    "buy_hold_total_return": 0.3713885622881439,
+    "strategy_sharpe": 1.0203664895235633,
+    "buy_hold_sharpe": 0.8702433711237476,
+    "strategy_max_drawdown": -0.34082811526700085,
+    "buy_hold_max_drawdown": -0.34498397568158856,
+    "time_in_market": 0.7112299465240641,
+    "num_trades": 92
+  }
+}

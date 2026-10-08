@@ -1,0 +1,33 @@
+{
+  "ticker": "SPY",
+  "test_period": [
+    "2025-04-09",
+    "2026-10-05"
+  ],
+  "test_days": 374,
+  "model": {
+    "rmse": 0.009054200175892754,
+    "mae": 0.006623795006912277,
+    "directional_accuracy": 0.5106951871657754
+  },
+  "baseline_zero_return": {
+    "rmse": 0.00852914989370543,
+    "mae": 0.006251039331102917
+  },
+  "baseline_train_mean": {
+    "rmse": 0.008486529259954084,
+    "mae": 0.0062087900093106075,
+    "directional_accuracy": 0.553475935828877
+  },
+  "majority_class_rate_up": 0.553475935828877,
+  "backtest": {
+    "strategy_total_return": 0.24458576127695797,
+    "buy_hold_total_return": 0.4436459884418842,
+    "strategy_sharpe": 1.5135766648392293,
+    "buy_hold_sharpe": 1.9090164059433485,
+    "strategy_max_drawdown": -0.10580635921226367,
+    "buy_hold_max_drawdown": -0.08884964925337757,
+    "time_in_market": 0.6577540106951871,
+    "num_trades": 59
+  }
+}
